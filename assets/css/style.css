@@ -1,26 +1,83 @@
-html {
-    background-color: #f3eef1;
+* {
+    box-sizing: border-box;
   }
-
-  .madimi-one-regular {
+  
+  body {
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+  
+  header {
+    padding: 40px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
   }
 
-  h1 {
-    font-size: 75px;
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #d8a47f;
+  }
+  
+  nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
     text-align: center;
   }
-
-  h2 {
-    font-size: 35px;
-    text-decoration: underline;
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+    margin-top: auto;
   }
-
-p,li {
-    font-size: 16px;
-    color: #F86F03;
-    line-height: 2;
-    letter-spacing: 1px;
-}
+  
+  .product {
+    display: flex;
+    width: 90%;
+    margin: 1% auto;
+  }
+  
+  .product button {
+    font-size: 150%;
+  }
+  
+  .product-slideshow {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-image {
+    width: 100%;
+  }
+  
+  .product-details {
+    margin-left: 3%;
+    flex: 0 0 60%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main,
+    nav,
+    .product {
+      flex-direction: column;
+    }
+  
+    .product-slideshow button {
+      /* Removes the slideshow buttons from the document flow */
+      display: flex;
+    }
+  
+    .product-details {
+      margin-left: 0;
+    }
+  }

@@ -5,23 +5,50 @@
     <meta name="viewport" content="width=device-width" />
     <link href=".\assets\css\style.css" rel="stylesheet" />
     <title>Welcome to the Treehouse</title>
+
 <!--Madimi/Nabla/Honk Font Style-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Honk&family=Madimi+One&family=Nabla&display=swap" rel="stylesheet">
   </head>
-<!--My portfolio begins-->
+
   <body>
-    <h1 class="madimi-one-regular">Morgan's Purrrfolio</h1>
-    <img src=".\assets\images\sleeping cat.jpg" alt="Sleeping orange cat" />
-    <h2 class="madimi-one-regular">About Me</h2>
-    <p>This is where I share all things awesome about me!</p>
-<!--List of my projects-->
-    <h2 class="madimi-one-regular">Cats At Work</h2>
-    <ul>
-        <li><a href="">Project #1</a></li>
-        <li><a href="">Project #2</a></li>
-        <li><a href="">Project #3</a></li>
-    </ul>
+    <header>
+      <h1>Morgan's Purrrfolio</h1>
+    </header>
+
+    <nav>
+      <a href="#">Resume</a>
+      <a href="#">Tablet</a>
+      <a href="#">Toilet Paper</a>
+      <a href="#">Wooden Spoons</a>
+    </nav>
+
+    <main>
+      <section class="product">
+        <div class="product-slideshow">
+          <button>&lt;</button>
+          <!-- Wrap the image in a div to avoid weird flexbox behavior -->
+          <div>
+            <img class="product-image" src=".\assets\images\sleeping cat.jpg" alt="a sleeping cat" />
+          </div>
+          <button>&gt;</button>
+        </div>
+        <div class="product-details">
+          <h2>About Me</h2>
+          <p>The slideshow buttons on the left won't work until we add JavaScript to the page, but we can at least set up the proper alignment with CSS.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tempore sunt culpa dicta iure ipsa aperiam impedit tenetur optio temporibus, nostrum aliquam rerum voluptate! Blanditiis sit ipsam praesentium esse facilis!</p>
+          <p>Price: $300</p>
+          <p>
+            <button>Buy Now</button>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Remember to use your DevTools!
+    </footer>
   </body>
-</html> 
+
+</html>
