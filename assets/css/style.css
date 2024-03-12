@@ -16,13 +16,23 @@
   }
   
   header {
-    padding: 40px;
+    padding: 10px;
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
     background: #13293d;
     color: #fff;
+  }
+
+  h1 {
+    margin-top: -20px;
+    font-size: 50px;
+  }
+
+  .my-pic {
+    width: 5%;
+    margin-bottom: -20px;
   }
 
   nav {
@@ -37,43 +47,48 @@
     text-decoration: none;
     text-align: center;
   }
+
+  .paws {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(.\assets\images\cat-paws.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cat-on {
+    background-color: #13293d;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+}
   
+.box {
+  background-color: #d8a47f;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 600px;
+  height: 150px;
+  text-align: center;
+}
+
+.sitting {
+  width: 20%;
+  margin-left: 125px;
+}
+
+  h2 {
+    text-align: center;
+    font-size: 35px;
+  }
+
   footer {
     padding: 20px;
     text-align: center;
     background: #13293d;
     color: #fff;
     margin-top: auto;
-  }
-  
-  .my-pic {
-    width: 10%;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction:row-reverse;
-    align-items: center;
-}
-
-  .box {
-    width: 500px;
-    height: 250px;
-    border: 1px solid black;
-    display: flex; /* Use flexbox to control layout inside the box */
-    justify-content: center; /* Horizontally center items */
-    align-items: center; /* Vertically center items */
-    padding: 20px;
-    margin: 10px;
-}
-  
-  .about-me {
-    float: inline-end;
-    text-align: center;
-  }
-
-  h2 {
-    padding: 10px;
   }
   
   @media screen and (max-width: 768px) {
