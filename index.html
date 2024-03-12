@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US">
+
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -17,31 +18,26 @@
       <h1>Morgan's Purrrfolio</h1>
     </header>
 
+  <!--Clicking on each link takes you to the corresponding section-->
     <nav>
-      <a href="#">Resume</a>
-      <a href="#">Tablet</a>
-      <a href="#">Toilet Paper</a>
-      <a href="#">Wooden Spoons</a>
+      <a href="#">About Me</a>
+      <a href="#">My Work</a>
+      <a href="#">Contact Me</a>
     </nav>
 
     <main>
-      <section class="product">
-        <div class="product-slideshow">
-          <button>&lt;</button>
-          <!-- Wrap the image in a div to avoid weird flexbox behavior -->
+      <section>
           <div>
-            <img class="product-image" src=".\assets\images\sleeping cat.jpg" alt="a sleeping cat" />
+            <img class="my-pic" src=".\assets\images\sleeping cat.jpg" alt="a sleeping cat" />
           </div>
-          <button>&gt;</button>
-        </div>
-        <div class="product-details">
+      </section>
+
+      <section class="container">
+        <div class="about-me">
           <h2>About Me</h2>
-          <p>The slideshow buttons on the left won't work until we add JavaScript to the page, but we can at least set up the proper alignment with CSS.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tempore sunt culpa dicta iure ipsa aperiam impedit tenetur optio temporibus, nostrum aliquam rerum voluptate! Blanditiis sit ipsam praesentium esse facilis!</p>
-          <p>Price: $300</p>
-          <p>
-            <button>Buy Now</button>
-          </p>
+          <p class="box">The slideshow buttons on the left won't work 
+            until we add JavaScript to the page, but we can at least set up the 
+            proper alignment with CSS.</p>
         </div>
       </section>
     </main>
