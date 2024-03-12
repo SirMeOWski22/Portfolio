@@ -9,10 +9,7 @@
     font-weight: 400;
     font-style: normal;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: flex-start;
+    display: block;
   }
   
   header {
@@ -48,39 +45,80 @@
     text-align: center;
   }
 
+  main {
+    display: block;
+  }
   .paws {
     height: 500px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(.\assets\images\cat-paws.jpg);
+    background-image: url(.\assets\images\Welcome-to-the-Treehouse.jpg);
     background-size: cover;
     background-position: center;
   }
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+  .cat-on img {
+    max-height: 200px;
+  }
+
+  .tens-cat img {
+    max-height: 200px;
+  }
+
+  .float-left {
+    float: left;
+    margin-right: 25px;
+  }
+
+  .float-right {
+    float: right;
+    margin-right: 25px;
+  }
+
+  .content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+  }
+
+  section {
+  display: block;
+  }
 
   .cat-on {
-    background-color: #13293d;
-    display: flex;
-    flex-direction:column;
-    align-items: left;
-}
-  
-.box {
-  background-color: #d8a47f;
-  border: 1px solid black;
-  border-radius: 5px;
-  width: 600px;
-  height: 150px;
-  text-align: center;
-}
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  background-color: black;
+  color: #fff;
+  }
 
-.sitting {
-  width: 20%;
-  margin-left: 125px;
-}
+  .tens-cat {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: black;
+    color: #fff;
+  }
 
   h2 {
-    text-align: center;
-    font-size: 35px;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
 
   footer {
