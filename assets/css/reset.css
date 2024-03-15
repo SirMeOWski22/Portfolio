@@ -6,18 +6,18 @@
 
 /* Set responsive font size */
 body {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 /* Make the header responsive */
 header {
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 /* Make the image responsive */
 .my-pic {
-  width: 25%; /* Adjust width as needed */
+  width: 100%; /* Adjust width as needed */
 }
 
 /* Make the navigation responsive */
@@ -34,7 +34,7 @@ nav a {
 
 /* Make the content section responsive */
 .content {
-  width: 25%; /* Adjust width as needed */
+  width: 100%; /* Adjust width as needed */
 }
 
 /* Make the footer responsive */

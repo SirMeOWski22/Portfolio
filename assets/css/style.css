@@ -178,10 +178,9 @@ h3 {
     margin-left: 20px;
    
   }
-  
-/* Media query for screens smaller than 768px (tablets and mobile devices) */
-@media screen and (max-width: 768px) {
-  /* Styles for screens smaller than 768px */
+
+  /* Media query for cell phones (up to 480px) */
+@media screen and (max-width: 576px) {
   body {
     font-size: 14px; 
   }
@@ -191,15 +190,15 @@ h3 {
   }
 
   .content {
-    width: 100%; 
+    width: 60%; 
   }
 
   .about-me {
-    width: 100%; 
+    width: 15%; 
   }
 
   footer {
-    width: 100%; 
+    width: 60%; 
   }
 }
 
@@ -210,7 +209,8 @@ h3 {
     font-size: 16px; 
   }
 
-  h1 {
+  h1
+   {
     font-size: 45px; 
   }
 
@@ -248,28 +248,5 @@ h3 {
 
   footer {
     width: 70%; 
-  }
-}
-
-/* Media query for cell phones (up to 480px) */
-@media screen and (max-width: 480px) {
-  body {
-    font-size: 14px; 
-  }
-
-  h1 {
-    font-size: 40px; 
-  }
-
-  .content {
-    width: 60%; 
-  }
-
-  .about-me {
-    width: 15%; 
-  }
-
-  footer {
-    width: 60%; 
   }
 }
