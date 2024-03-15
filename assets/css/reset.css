@@ -1,27 +1,44 @@
-/*
-  Josh's Custom CSS Reset
-  https://www.joshwcomeau.com/css/custom-css-reset/
-*/
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-  * {
-    margin: 0;
-  }
-  body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-  }
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  input, button, textarea, select {
-    font: inherit;
-  }
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  #root, #__next {
-    isolation: isolate;
-  }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Set responsive font size */
+body {
+  font-size: 10px;
+}
+
+/* Make the header responsive */
+header {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+/* Make the image responsive */
+.my-pic {
+  width: 25%; /* Adjust width as needed */
+}
+
+/* Make the navigation responsive */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #163f74;
+}
+
+nav a {
+  padding: 1rem;
+}
+
+/* Make the content section responsive */
+.content {
+  width: 25%; /* Adjust width as needed */
+}
+
+/* Make the footer responsive */
+footer {
+  padding: 1rem;
+  text-align: center;
+}
