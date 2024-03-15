@@ -1,4 +1,4 @@
-                                                                                          Developer Portfolio Website
+                                                                          Developer Portfolio Website
 
 This portfolio website showcases a potential employee's previous work, providing an overview of their skills and projects. The website is designed to be user-friendly and responsive, ensuring a seamless experience across different devices.
 
@@ -41,4 +41,7 @@ CSS
 
 
 Screenshots
+
+![challenge2 1](https://github.com/SirMeOWski22/Portfolio-Landing-Page/assets/160355750/06140e2d-97f9-49fe-88d5-525c237a9a9d)
+![challenge2 2](https://github.com/SirMeOWski22/Portfolio-Landing-Page/assets/160355750/703dea6d-b6d9-44f8-af40-e96dd12d167b)
 
