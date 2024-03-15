@@ -10,6 +10,8 @@
     font-style: normal;
     margin: 0;
     display: block;
+    background-color: #d0ebf1;
+
   }
   
   header {
@@ -18,7 +20,7 @@
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    background: #13293d;
+    background: rgb(226, 127, 210);
     color: #fff;
   }
 
@@ -35,11 +37,11 @@
   nav {
     display: flex;
     justify-content: flex-end;
-    background-color: #d8a47f;
+    background-color: #163f74;
   }
 
   nav a {
-    color: #13293d;
+    color: #fff;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
@@ -59,12 +61,21 @@
   img {
     overflow-clip-margin: content-box;
     overflow: clip;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
   }
-  .cat-on img {
+
+  .img:hover img {
+    transform: scale(1.2);
+  }
+
+
+  .prework img {
     max-height: 200px;
   }
 
-  .tens-cat img {
+  .refractor img {
     max-height: 200px;
   }
 
@@ -88,7 +99,7 @@
   display: block;
   }
 
-  .cat-on {
+  .prework {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -96,9 +107,9 @@
   color: #fff;
   }
 
-  .tens-cat {
+  .refractor {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 30px;
     height: 300px;
     background-color: rgb(226, 121, 23);
     color: #fff;
@@ -111,6 +122,8 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
   }
 
   p {
@@ -133,6 +146,11 @@
     background-color: #dfa810;
 }
 
+h3 {
+  text-align: center;
+  font-size: 50px;
+}
+
 .me-img {
   display: block;
     margin: 10px auto;
@@ -141,11 +159,12 @@
 
   footer {
     padding: 20px;
-    width: 1450px;
+    width: 1430px;
     text-align: left;
     background: #13293d;
     color: #fff;
-    margin-top: auto;
+    margin-top: 50px;
+    margin-left: 20px;
   }
   
   @media screen and (max-width: 768px) {
